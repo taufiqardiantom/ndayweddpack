@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import PriceList from '../views/PriceList.vue'
 import Dashboard from '../views/Dashboard.vue'
+import Gallery from '../views/Gallery.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/pricelist',
     name: 'PriceList',
     component: PriceList
+  },
+  {
+    path: '/gallery',
+    name: 'Gallery',
+    component: Gallery
   },
   {
     path: '/about',

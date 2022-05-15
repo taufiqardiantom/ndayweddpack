@@ -14,7 +14,7 @@
       <v-divider></v-divider>
 
       <v-list dense>
-        <v-list-item v-for="item in items" :key="item.title" link>
+        <!-- <v-list-item v-for="item in items" :key="item.title" link>
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-icon>
@@ -22,7 +22,7 @@
           <v-list-item-content>
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
-        </v-list-item>
+        </v-list-item> -->
       </v-list>
     </v-navigation-drawer>
 
@@ -44,7 +44,13 @@
     </v-main>
 
     <v-footer app>
-      <v-btn>FOOTER</v-btn>
+      <v-row class="d-flex justify-space-around">
+        <v-col cols="auto">
+          <v-btn class="mx-1" rounded><v-icon>mdi-home</v-icon></v-btn>
+          <v-btn class="mx-1" rounded><v-icon>mdi-cog</v-icon></v-btn>
+          <v-btn class="mx-1" rounded><v-icon>mdi-account</v-icon></v-btn>
+        </v-col>
+      </v-row>
     </v-footer>
   </v-app>
 </template>
