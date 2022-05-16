@@ -3,11 +3,11 @@
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list-item>
         <v-list-item-avatar>
-          <v-img src="https://randomuser.me/api/portraits/men/78.jpg"></v-img>
+          <v-img src="@/assets/avatar.jpg"></v-img>
         </v-list-item-avatar>
 
         <v-list-item-content>
-          <v-list-item-title>John Leider</v-list-item-title>
+          <v-list-item-title>Admin Nday Makeup</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
 
@@ -28,6 +28,7 @@
 
     <v-app-bar app elevation="0" color="white">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+      Nday MakeUp
       <v-spacer></v-spacer>
       <v-btn icon>
         <v-icon>mdi-dots-vertical</v-icon>

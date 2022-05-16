@@ -7,7 +7,7 @@
         gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
         height="200px"
       >
-        <v-card-title>Nday Makeup</v-card-title>
+        <v-card-title>Sesuaikan Kebutuhan Anda</v-card-title>
         <v-card-text
           ><v-chip to="/pricelist" color="pink lighten-2" dark>
             <v-icon>mdi-</v-icon> Price List
@@ -22,7 +22,7 @@
         gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
         height="200px"
       >
-        <v-card-title>Instagram</v-card-title>
+        <v-card-title>Lihat Portofolia Kami</v-card-title>
         <v-card-text
           ><v-chip to="/gallery" color="pink lighten-2" dark>
             <v-icon>mdi-</v-icon> Gallery
